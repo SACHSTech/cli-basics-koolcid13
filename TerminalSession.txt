@@ -1,1 +1,28 @@
-
+@koolcid13 ➜ /workspaces/cli-basics-koolcid13 (main ✗) $ pwd
+/workspaces/cli-basics-koolcid13
+@koolcid13 ➜ /workspaces/cli-basics-koolcid13 (main ✗) $ mkdir CLIBasicsFolder
+@koolcid13 ➜ /workspaces/cli-basics-koolcid13 (main ✗) $ ls
+CLIBasicsFolder  README.md  TerminalSession.txt
+@koolcid13 ➜ /workspaces/cli-basics-koolcid13 (main ✗) $ cd CLIBasicsFolder
+@koolcid13 ➜ /workspaces/cli-basics-koolcid13/CLIBasicsFolder (main ✗) $ touch myfile.txt
+@koolcid13 ➜ /workspaces/cli-basics-koolcid13/CLIBasicsFolder (main ✗) $ echo NAME: Avin Ahmadi >> myfile.txt
+@koolcid13 ➜ /workspaces/cli-basics-koolcid13/CLIBasicsFolder (main ✗) $ echo COURSE: ICS4U >> myfile.txt
+@koolcid13 ➜ /workspaces/cli-basics-koolcid13/CLIBasicsFolder (main ✗) $ cat myfile.txt
+NAME: Avin Ahmadi
+COURSE: ICS4U
+@koolcid13 ➜ /workspaces/cli-basics-koolcid13/CLIBasicsFolder (main ✗) $ cp myfile.txt myfile_copy.txt
+@koolcid13 ➜ /workspaces/cli-basics-koolcid13/CLIBasicsFolder (main ✗) $ ls
+myfile_copy.txt  myfile.txt
+@koolcid13 ➜ /workspaces/cli-basics-koolcid13/CLIBasicsFolder (main ✗) $ mv myfile_copy.txt myfile2.txt
+@koolcid13 ➜ /workspaces/cli-basics-koolcid13/CLIBasicsFolder (main ✗) $ mv myfile2.txt ~/myfile2.txt
+@koolcid13 ➜ /workspaces/cli-basics-koolcid13/CLIBasicsFolder (main ✗) $ ls ~
+myfile2.txt
+@koolcid13 ➜ /workspaces/cli-basics-koolcid13/CLIBasicsFolder (main ✗) $ pwd
+/workspaces/cli-basics-koolcid13/CLIBasicsFolder
+@koolcid13 ➜ /workspaces/cli-basics-koolcid13/CLIBasicsFolder (main ✗) $ cd ..
+@koolcid13 ➜ /workspaces/cli-basics-koolcid13 (main ✗) $ pwd
+/workspaces/cli-basics-koolcid13
+@koolcid13 ➜ /workspaces/cli-basics-koolcid13 (main ✗) $ rm CLIBasicsFolder/myfile.txt
+@koolcid13 ➜ /workspaces/cli-basics-koolcid13 (main ✗) $ rmdir CLIBasicsFolder
+@koolcid13 ➜ /workspaces/cli-basics-koolcid13 (main ✗) $ ls ~
+myfile2.txt
